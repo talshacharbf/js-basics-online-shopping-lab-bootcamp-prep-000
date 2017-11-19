@@ -22,7 +22,7 @@ function viewCart () {
  console.log("Your shopping cart is empty.")
  } else {
  var newArr = [];
- for (var i = 0; i <= cart.length; i++) {
+ for (var i = 0; i =< cart.length; i++) {
  var price = Object.keys(cart[i]);
  for (var price in cart[i]) {
  newArr.push(`${Object.keys(cart[i])} at $${cart[i][price]}`)
